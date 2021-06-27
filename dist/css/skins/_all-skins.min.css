@@ -1,4 +1,9 @@
-
+:root {
+    --theme-color:#6bbd73;
+    --blue-color:#6bbd73;
+    --green-color: #6bbd73;
+    --green-hover: #5aa261;
+}
 .skin-blue .main-header .navbar {
 	background-color: var(--blue-color);
 }
