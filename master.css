@@ -190,3 +190,10 @@ td .btn-primary {
     color: #fff;
     background: var(--green-hover);
 }
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: var(--green-hover);
+}
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #fff;
+}
