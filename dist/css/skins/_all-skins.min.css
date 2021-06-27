@@ -68,7 +68,7 @@
 .skin-blue .wrapper,
 .skin-blue .main-sidebar,
 .skin-blue .left-side {
-	background-color: #222d32
+	background-color: var(--green-color);
 }
 
 .skin-blue .user-panel>.info,
@@ -77,8 +77,8 @@
 }
 
 .skin-blue .sidebar-menu>li.header {
-	color: #4b646f;
-	background: #1a2226
+	color: #fff;
+	background: var(--green-color);
 }
 
 .skin-blue .sidebar-menu>li>a {
@@ -89,7 +89,7 @@
 .skin-blue .sidebar-menu>li.active>a,
 .skin-blue .sidebar-menu>li.menu-open>a {
 	color: #fff;
-	background: #1e282c
+	background: var(--green-hover);
 }
 
 .skin-blue .sidebar-menu>li.active>a {
@@ -98,11 +98,11 @@
 
 .skin-blue .sidebar-menu>li>.treeview-menu {
 	margin: 0 1px;
-	background: #2c3b41
+	background: var(--green-hover);
 }
 
 .skin-blue .sidebar a {
-	color: #b8c7ce
+	color: #fff;
 }
 
 .skin-blue .sidebar a:hover {
@@ -110,7 +110,7 @@
 }
 
 .skin-blue .sidebar-menu .treeview-menu>li>a {
-	color: #8aa4af
+	color: #fff;
 }
 
 .skin-blue .sidebar-menu .treeview-menu>li.active>a,
@@ -127,7 +127,7 @@
 .skin-blue .sidebar-form input[type="text"],
 .skin-blue .sidebar-form .btn {
 	box-shadow: none;
-	background-color: #374850;
+	background-color: #fff;
 	border: 1px solid transparent;
 	height: 35px
 }

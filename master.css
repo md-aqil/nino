@@ -1,7 +1,8 @@
 :root {
-    --theme-color:#58bfca;
-    --blue-color:#58bfca;
+    --theme-color:#6bbd73;
+    --blue-color:#6bbd73;
     --green-color: #6bbd73;
+    --green-hover: #5aa261;
 }
 .no-data {
     text-align: center;
@@ -153,9 +154,12 @@ td .btn-primary {
     border-top-color: var(--theme-color);
 }
 .skin-blue .main-header .logo {
-    background-color: #3eabb7;
+    background-color: var(--green-hover);
     color: #fff;
     border-bottom: 0 solid transparent;
+}
+.skin-blue .main-header .logo:hover {
+    background-color: var(--green-hover);
 }
 .pd20 {
     padding: 20px;
